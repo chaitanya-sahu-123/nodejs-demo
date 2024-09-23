@@ -13,3 +13,5 @@ app.get('/ready', function (req, res) {
 });
 app.listen(process.env.PORT || 3000);
 module.exports = app;
+console.log('Hello');
+
